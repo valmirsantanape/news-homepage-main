@@ -64,19 +64,18 @@ header h1 {
 
 @media (max-width: 1200px)
 {
+    
     .expand-navigation
    {
-    
+    height: 50%;
     background-color: var(--Off-white);
     color: #000;
-    position: absolute;
-    background-color: grey;
-    right: 29% ;
-    top: 1% ;
-    height: 100%;
-    width: 30%;
-    padding: 0 0 0 30px;
-
+    max-width: 320px;
+    min-width: 300px;
+    position: absolute ;
+    margin-left: 50px;
+    top: 1px;
+    
    }
    .menu-close{
     text-align: right;
@@ -85,12 +84,17 @@ header h1 {
     height: 2rem;
     cursor: pointer;
    }
+   .item-menu p{
+        margin-left: 3rem;
+        color: #000;
+   }
    .menu-navigation{
         line-height: 2rem;
    }
    .menu-navigation :hover{
-        text-decoration: underline;
         cursor: pointer;
+        opacity: 0.6;
+        background-color: var(--Dark-grayish-blue);
    }
    
 }
@@ -146,3 +150,8 @@ span{
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+footer{
+    
+    padding: 10px ;
+}
