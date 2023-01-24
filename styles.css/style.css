@@ -114,6 +114,7 @@ main{
 .content-line{
     background-color: var(--Dark-grayish-blue);
     height: 1px;
+    margin: 2rem 0;
 }
 
 section{
