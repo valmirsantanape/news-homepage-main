@@ -181,13 +181,45 @@ aside ol{
     .navigation {
         display: none;
     }
-    .expand-navigation{
+    .menu-close{
+        display: block;
+        text-align: end;
+        padding: 2rem 3rem;
+        font-size: 30pt;
+    }
+    .box-navigation {
+        width: 100%;
         position: absolute;
+        display: flex;
+        justify-content: end;
+        height: 100%;
+    }
+    .expand-navigation{
+        width: 70%;
+        background-color: var(--Off-white);
+        opacity: .9;
+        
     }
     .button-menu{
         display: block;
         padding-top: 10px;
     }
+    .menu-navigation{
+        
+        line-height: 3rem;
+        
+    }
+    .item-menu{
+        padding-left: 3rem;
+    }
+    .menu-navigation :hover{
+        background-color: var(--Dark-grayish-blue);
+        padding-left: 2rem;
+        font-size: 15pt;
+        cursor: pointer;
+        
+    }
+
     .section-information{
         padding: 10px 0;
         margin: 0;
