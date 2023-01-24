@@ -261,6 +261,9 @@ aside ol{
     aside ol{
         display: block;
     }
+    aside li {
+        width: 100%;
+    }
 }
     
 
