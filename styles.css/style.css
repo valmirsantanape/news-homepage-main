@@ -68,15 +68,18 @@ main{
 }
 
 .content-secundary {
+    display: grid;
     background-color: var(--Very-dark-blue);
     color: var(--Off-white);
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     margin: 0 10px;
     line-height: 1.5rem;
 }
 
 .text-content h2{
     color: var(--Soft-orange);
+    margin-bottom: 3rem;
+    font-size: 25pt;
 }
 .text-content h3 :hover{
     color: var(--Soft-orange);
@@ -95,6 +98,7 @@ main{
 }
 
 section{
+    display: flex;
     padding: 10px 30px 30px 0;
 }
 section h1{
@@ -155,7 +159,7 @@ aside li{
         margin-top: 3px;
     }
     section{
-        display: flex;
+        display: block;
     }
 }
     
