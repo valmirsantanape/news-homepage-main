@@ -17,11 +17,14 @@
 }
 
 body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Overpass', sans-serif;
     background-color: var(--Very-dark-blue);
     padding: 50px 100px;
 }
 
 header{
+    font-family: 'Inter', sans-serif;
     background-color: var(--Off-white);
     padding: 4rem 10rem 3rem 10rem;
     display: flex;
@@ -40,6 +43,7 @@ header h1 {
     color: var(--Grayish-blue);
 }
 .item-menu :hover {
+    cursor: pointer;
     color: var(--Soft-orange);
 }
 
@@ -62,10 +66,6 @@ main{
     padding: 0 10px ;
 }
 
-.box-img-web3{
-    
-}
-
 .img-web3{
     width: 100%;
 }
@@ -76,6 +76,10 @@ main{
     background-color: var(--Soft-red);
     border: none;
     color: var(--Off-white);
+}
+.box-btn-readmore :hover {
+    cursor: pointer;
+    background-color: var(--Very-dark-blue);
 }
 
 .content-secundary {
@@ -91,6 +95,7 @@ main{
     color: var(--Soft-orange);
     margin-bottom: 3rem;
     font-size: 25pt;
+    font-weight: 800;
 }
 .text-content h3 :hover{
     color: var(--Soft-orange);
@@ -113,6 +118,8 @@ section{
     padding: 10px 30px 30px 0;
 }
 section h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
     margin-right: 20px;
     font-size: 25pt;
 }
