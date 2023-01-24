@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
   <link rel="stylesheet" href="styles.css/style.css">
@@ -15,7 +18,6 @@
 </head>
 <body>
 
-  <main >
     <header>
       <h1>W.</h1>
       <div class="button-menu" onclick=expandMenu()>
@@ -38,46 +40,42 @@
       </nav>
     </header>
     
-<div class="container">
-  
-  <div class="content-primary">
-  
+  <main >
+    <div class="content-primary">
     <picture>
-      <img src="assets/images/image-web-3-desktop.jpg" alt="gaming growth">
+      <img src="assets/images/image-web-3-desktop.jpg" alt="web 3 desktop" class="img-web3">
     </picture>
-
     <section>
-      <h1>The Bright Future of Web 3.0?</h1>
-      <div>
-        <p>
+      <h1 class="title-section">The Bright Future of Web 3.0?</h1>
+      <div class="section-information">
+        <p >
           We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
           But is it really fulfilling its promise?
         </p>
-        <button>Read more</button>
+        <button class="btn-readmore">READ MORE</button>
       </div>
     </section>
-  
   </div>
   <div class="content content-secundary">
     <div class="text-content">
       <h2>New</h2>
-      <h3>Hydrogen VS Electric Cars</h3>
+      <h3><a href="">Hydrogen VS Electric Cars</a></h3>
       <p>
         Will hydrogen-fueled cars ever catch up to EVs?
       </p>
     </div>
     <div class="line"></div>
     <div class="text-content">
-      <h3>The Downsides of AI Artistry</h3>
+      <h3><a href="">The Downsides of AI Artistry</a></h3>
       <p>What are the possible adverse effects of on-demand AI image generation?</p>
     </div>
     <div class="line"></div>
     <div class="text-content">
-      <h3>Is VC Funding Drying Up?</h3>
+      <h3><a href="">Is VC Funding Drying Up?</a></h3>
       <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
     </div>
   </div>
-</div>
+</main>
 
     <aside>
       <ol>
@@ -124,7 +122,7 @@
     Coded by <a href="https://www.linkedin.com/in/valmirsantanape/">Valmir Santana</a>.
   </footer>
   <hr>
-  </main>
+  
   <script src="script/script.js"></script>
   
 </body>
