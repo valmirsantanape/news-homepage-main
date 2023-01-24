@@ -7,12 +7,19 @@ const menuNavigation = document.querySelector(".navigation")
 //     
 // })
 
+
+
 function expandMenu() {
-    menuNavigation.classList.add("expand-menu")
+    menuNavigation.classList.add("expand-navigation")
     menuNavigation.classList.remove("navigation")
+    btnMenu.classList.add("button-menu-close")
+    btnMenu.classList.remove("button-menu")
 }
 
 function closedMenu() {
-    menuNavigation.classList.remove("expand-menu")
+    
+    menuNavigation.classList.remove("expand-navigation")
     menuNavigation.classList.add("navigation")
+    btnMenu.classList.remove("button-menu-close")
+    btnMenu.classList.add("button-menu")
 }

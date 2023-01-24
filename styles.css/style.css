@@ -34,14 +34,17 @@ header{
 header h1 {
     padding-left: 1.5rem;
 }
+
 .navigation ol{
     display: flex;
 }
+
 .item-menu{
     list-style: none;
     margin-right: 2rem;
     color: var(--Grayish-blue);
 }
+
 .item-menu :hover {
     cursor: pointer;
     color: var(--Soft-orange);
@@ -191,10 +194,15 @@ aside ol{
     .menu-close{
         display: block;
         text-align: end;
-        padding: 2rem 3rem;
+        padding: 0 3rem;
         font-size: 30pt;
     }
+    .button-menu-close{
+        display: none;
+    }
+    
     .box-navigation {
+        margin-top: 2rem;
         width: 100%;
         position: absolute;
         display: flex;
@@ -207,18 +215,24 @@ aside ol{
         opacity: .9;
         
     }
+
     .button-menu{
+        height: 10px;
         display: block;
         padding-top: 10px;
+        
     }
+
     .menu-navigation{
         
         line-height: 3rem;
         
     }
+
     .item-menu{
         padding-left: 3rem;
     }
+
     .menu-navigation :hover{
         background-color: var(--Dark-grayish-blue);
         padding-left: 2rem;
