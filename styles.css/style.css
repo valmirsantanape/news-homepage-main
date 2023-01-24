@@ -30,6 +30,29 @@ main{
     margin: 0 auto;
     padding: 30px 90px;
 }
+
+header{
+    padding: 2.5rem 5.5rem 0 5.5rem;
+    background-color: var(--Off-white);
+    display: flex;
+    justify-content: space-between;
+}
+.menu-navigation {
+    display: flex;
+}
+.menu-navigation {
+    list-style: none;
+}
+
+.item-menu {
+    margin-left: 1.5rem ;
+    color: var(--Grayish-blue);
+}
+.item-menu :hover {
+    color: var(--Soft-orange);
+    cursor: pointer;
+}
+
 .content-primary{
    
 }
@@ -99,6 +122,13 @@ aside ol li{
     padding: 0 10px;
     padding: 10px 0px;
 }
+.item-aside {
+    text-decoration: none;
+    color: #000;
+}
+.title-item-aside :hover {
+    color: var(--Soft-orange);
+}
 .img-list{
     height: 100px;
     margin: 0 10px;
@@ -115,11 +145,40 @@ span{
 
 @media (max-width: 1200px)
 {
+    body {
+        margin-top: 0;
+    }
+    header{
+        padding: 0;
+    }
+    .navigation{
+        position: absolute;
+        margin-left: 5rem;
+        
+        background-color: var(--Off-white);
+        opacity: 0.9;
+        height: 100%;
+    }
+    .menu-navigation{
+        display: block;
+        padding-top: 3rem ;
+        line-height: 2rem;
+        
+        
+        
+    }
+    .item-menu {
+        color: #000;
+        margin: 0;
+        padding: 0 9rem 0 2rem;
+    }
+    .menu-navigation :hover {
+        background-color: var(--Dark-grayish-blue);
+    }
     main{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
         padding: 10px;
     }
     .img-web3{
