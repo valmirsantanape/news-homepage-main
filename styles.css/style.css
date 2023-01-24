@@ -75,7 +75,7 @@ main{
 
 .btn-readmore{
     padding: .5rem 1.5rem;
-    margin: 15px 0;
+    margin: 2rem 0 0;
     background-color: var(--Soft-red);
     border: none;
     color: var(--Off-white);
