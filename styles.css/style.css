@@ -161,7 +161,7 @@ aside{
 }
 aside li{
     display: flex;
-    
+    width: 300px;
 }
 aside ol{
     display: flex;
