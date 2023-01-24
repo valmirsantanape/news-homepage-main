@@ -221,13 +221,16 @@ aside ol{
         height: 10px;
         display: block;
         padding-top: 10px;
-        
+    }
+    .line-button{
+        height: 3px;
+        width: 3rem;
+        background-color: #000;
+        margin-top: 5px;
     }
 
     .menu-navigation{
-        
         line-height: 3rem;
-        
     }
 
     .item-menu{
@@ -247,12 +250,7 @@ aside ol{
         margin: 0;
     }
     
-    .line-button{
-        height: 1px;
-        width: 2rem;
-        background-color: #000;
-        margin-top: 3px;
-    }
+    
     section{
         display: block;
     }
